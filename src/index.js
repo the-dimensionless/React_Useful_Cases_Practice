@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import SplitView from './pages/SplitView';
 import WebWorkerDemo from './pages/WebWorkerDemo';
+import ReactSelectDemo from './pages/react-select-demo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
     // <App />
     // <SplitView />
-    <WebWorkerDemo />
+    // <WebWorkerDemo />
+    <ReactSelectDemo />
   // </React.StrictMode>
 );
 
