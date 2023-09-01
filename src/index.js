@@ -6,6 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import SplitView from './pages/SplitView';
 import WebWorkerDemo from './pages/WebWorkerDemo';
 import ReactSelectDemo from './pages/react-select-demo';
+import Icon from './components/IconComponent';
+import {
+  DatePicker,
+  DatePickerProvider,
+  useDatePickGetter,
+  useDatePickReset,
+} from '@bcad1591/react-date-picker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +20,11 @@ root.render(
     // <App />
     // <SplitView />
     // <WebWorkerDemo />
-    <ReactSelectDemo />
+    // <ReactSelectDemo />
+
+    <DatePickerProvider>
+    <Icon />
+    </DatePickerProvider>
   // </React.StrictMode>
 );
 
