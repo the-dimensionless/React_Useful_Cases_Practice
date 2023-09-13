@@ -29,6 +29,15 @@ Compare SOLID JS, Svelte, Preact, Vue & Qwik.
 8. Extend React Components
 9. CSS Variables in Styled Components
 10. Add a Themes using Styled Components
+11. Animation in Styled Components
+12. Use 'as' in Styled Components
+13. CSS and styled-components
+We can directly give styles to components using CSS as an object of the component called css props.
+we need to import styled-components/macro to activate the styling method which uses Babel. 
+Achieving this using Vite ? (Explore)
+14. CSS Helper Functions in Styled Components
+15. Default Attributes (attrs) in Styled Components
+https://www.freecodecamp.org/news/styled-components-in-react/
 
 
 

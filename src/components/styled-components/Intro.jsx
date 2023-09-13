@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import ThemeDemo from "./ThemeDemo";
 
 const H1 = styled.h1`
 color: red;
@@ -75,6 +76,9 @@ const StyledComponentsDemo = () => {
 
             <SampleReactComponent />
             <WrappedReactComponent />
+            <br/>
+            <DefaultButton as='a' href="https://www.google.com">Button that acts as a anchor tag</DefaultButton>
+            <ThemeDemo />
         </div>
     )
 };
