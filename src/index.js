@@ -15,6 +15,7 @@ import {
 } from '@bcad1591/react-date-picker';
 import NewHooksEx from './components/NewHooksEx';
 import SignalsDemo from './pages/SignalsDemo';
+import CustomHooksDemo from './pages/CustomHooksDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,7 +30,8 @@ root.render(
     // </DatePickerProvider>
 
     // <NewHooksEx />
-    <SignalsDemo />
+    // <SignalsDemo />
+    <CustomHooksDemo />
   // </React.StrictMode>
 );
 
