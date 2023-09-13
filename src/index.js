@@ -16,6 +16,7 @@ import {
 import NewHooksEx from './components/NewHooksEx';
 import SignalsDemo from './pages/SignalsDemo';
 import CustomHooksDemo from './pages/CustomHooksDemo';
+import StyledComponentsDemo from './components/styled-components/Intro';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,7 +32,8 @@ root.render(
 
     // <NewHooksEx />
     // <SignalsDemo />
-    <CustomHooksDemo />
+    // <CustomHooksDemo />
+    <StyledComponentsDemo />
   // </React.StrictMode>
 );
 
