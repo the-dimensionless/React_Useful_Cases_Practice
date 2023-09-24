@@ -38,6 +38,7 @@ Achieving this using Vite ? (Explore)
 14. CSS Helper Functions in Styled Components
 15. Default Attributes (attrs) in Styled Components
 https://www.freecodecamp.org/news/styled-components-in-react/
+https://styled-components.com/docs/basics
 
 
 
